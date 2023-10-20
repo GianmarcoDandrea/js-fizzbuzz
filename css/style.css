@@ -1,0 +1,45 @@
+/* ROOT */
+:root {
+    --body-bg-color:#083b4c;
+    --fizz-bg-color:#0bd6a1;
+    --buzz-bg-color: #ffd166;
+    --fizzbuzz-bg-color: #f0466f;
+    --number-bg-color: #1389b2;
+    --margin: 0.7rem;
+}
+
+.title {
+    font-size: 5rem;
+    color: #ffffff;
+}
+
+.cell {
+    width: calc(100% / 7 - var(--margin) * 2);
+    aspect-ratio: 1/1;
+    margin: var(--margin);
+}
+
+.flex-center {
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    background-color: var(--body-bg-color);
+}
+
+.fizz {
+    background-color: var(--fizz-bg-color);
+}
+
+.buzz {
+    background-color:  var(--buzz-bg-color);
+}
+
+.fizzbuzz {
+    background-color: var(--fizzbuzz-bg-color);
+}
+
+.number {
+    background-color: var(--number-bg-color);
+}
