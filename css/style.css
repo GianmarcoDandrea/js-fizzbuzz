@@ -1,7 +1,7 @@
 /* ROOT */
 :root {
-    --body-bg-color:#083b4c;
-    --fizz-bg-color:#0bd6a1;
+    --body-bg-color: #083b4c;
+    --fizz-bg-color: #0bd6a1;
     --buzz-bg-color: #ffd166;
     --fizzbuzz-bg-color: #f0466f;
     --number-bg-color: #1389b2;
@@ -33,7 +33,7 @@ body {
 }
 
 .buzz {
-    background-color:  var(--buzz-bg-color);
+    background-color: var(--buzz-bg-color);
 }
 
 .fizzbuzz {
