@@ -3,21 +3,35 @@ const rowElem = document.querySelector(".row");
 console.log(rowElem);
 
 // CONSTANTI PER IL CILCO FOR
-let row = "";
+let rowString = "";
 let colNumber = "";
 let colColor = "" ;
 for (let i = 1; i <= 100; i++) {
 
-    if(i % 3 === 0) {
-        i = "Fizz";
+    if(i % 5 === 0 && i % 3 === 0) {
+
+        colNumber = "FizzBuzz";
+        colColor = "fizzbuzz";
 
     } else if (i % 5 === 0 ) {
-       i = "Buzz";
-    } else if (i % 5 === 0 ||  ) {
-        i = "Buzz";
-     }
 
-    // console.log(i, result);
-    gridString += `<div class="col ${fizz}">${i}</div>`
-    console.log(`iterazione ${i}`, gridString);
+        colNumber = "Buzz";
+        colColor = "buzz";
+
+    } else if (i % 3 === 0) {
+
+        colNumber = "Fizz";
+        colColor = "fizz";
+
+    } else {
+
+        colNumber = i;
+        colColor = "number";
+    }
+
+    console.log(colNumber, colColor);
+    rowString += `<div class="cell fw-bold d-flex flex-center ${colColor}">${colNumber}</div>`
+    
 }
+
+rowElem.innerHTML = rowString;
