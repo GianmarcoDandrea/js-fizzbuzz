@@ -8,17 +8,17 @@
 Imposto il ciclo for da 0 a 100
 
 Per ogni iterazione:
-    SE ( il numero è divisibile per 3  ) 
-        salvo parola Fizz
+    SE ( il numero è divisibile per 5 AND per 3  ) 
+        salvo parola FizzBuzz
     SE ( il numero è divisibile per 5  ) 
         salvo parola Buzz
-    SE ( il numero è divisibile per 5 AND per 3 ) 
-        salvo parola FizzBuzz
+    SE ( il numero è divisibile per 3 ) 
+        salvo parola Fizz
     ALTRIMENTI 
-        scrivo il numero
+        scrivo il numero  
+    Salvo la variabile in uscita
+    fine ciclo  
 
-Salvo la variabile in uscita
+Stampo il numero o la parola nella cella con in colore corrispondente
 
-Stampo il numero o la parola  
-fine ciclo  
 
