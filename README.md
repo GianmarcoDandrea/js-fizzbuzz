@@ -11,15 +11,19 @@ Per ogni iterazione:
 
     SE ( il numero è divisibile per 5 AND per 3)   
     salvo parola FizzBuzz; 
+    salvo il colore corrispondente;
 
     SE ( il numero è divisibile per 5  )   
     salvo parola Buzz; 
+    salvo il colore corrispondente;
 
     SE ( il numero è divisibile per 3 )   
     salvo parola Fizz;
+    salvo il colore corrispondente;
 
     ALTRIMENTI   
     scrivo il numero;
+    salvo il colore corrispondente;
 
 Salvo la variabile in uscita
 fine ciclo  
